@@ -1,0 +1,369 @@
+.container {
+  width: 1110px;
+  height: 740px;
+  top: 28px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  color: black;
+}
+
+header {
+  width: 1110px;
+  height: 50px;
+  top: 28px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+}
+
+.Oval {
+  width: 50px;
+  height: 50px;
+  top: 28px;
+  left: 1225px;
+  gap: 0px;
+  opacity: 0px;
+}
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mainImg {
+  width: 445px;
+  height: 445px;
+  top: 203px;
+  left: 213px;
+  gap: 0px;
+  border-radius: 15px 0px 0px 0px;
+  opacity: 0px;
+  border-radius: 20px;
+}
+
+.pics {
+  width: 445px;
+  height: 565px;
+  top: 203px;
+  left: 213px;
+  gap: 20px;
+  opacity: 0px;
+  padding: 50px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.smallpics {
+  width: 445px;
+  height: 88px;
+  top: 680px;
+  left: 213px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.smallpic {
+  width: 88px;
+  height: 88px;
+  top: 680px;
+  left: 332px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  border-radius: 20px;
+}
+
+.buttondiv {
+  display: flex;
+  gap: 20px;
+}
+
+.firstbutton {
+  display: flex;
+  background-color: gray;
+  border-radius: 10px;
+}
+.secondbutton {
+  background-color: orange;
+}
+
+button {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.text {
+  width: 445px;
+  height: 426px;
+  top: 265px;
+  left: 783px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  width: 100%;
+  height: 100dvh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu {
+  display: none;
+}
+
+.modal button {
+  color: black;
+  background-color: gray;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.X {
+  position: absolute;
+  top: 120px;
+  right: 480px;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+}
+.buttondiv1 {
+  display: flex;
+  gap: 400px;
+  align-items: center;
+  position: absolute;
+}
+
+.modal2 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  position: absolute;
+  top: 130px;
+  right: 180px;
+  
+}
+
+.modal2 img {
+  width: 50px;
+  height: 50px;
+  top: 92px;
+  left: 24px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  border-radius: 10px;
+}
+
+.modal2 button{
+  width: 100px;
+  height: 20px;
+}
+.responsivearrows{
+  display: none;
+}
+.idk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.idkk {
+  display: flex;
+  gap: 0px;
+
+  flex-direction: column;
+}
+
+.idkk p {
+  margin: 0;
+}
+.modal2 button {
+  width: 100px;
+  height: 50px;
+}
+
+@media (max-width: 375px) {
+  header span {
+    display: none;
+    width: 375px;
+  }
+  .modal3 {
+    background-color: rgba(0, 0, 0, 0.65);
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .modal3 > div {
+    background-color: white; 
+    border: 2px solid black;
+    width: 250px;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .modal3 h1 {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+  }
+  dir {
+    padding: 0px;
+    margin-top: 60px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+    font-weight: bold;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  .menu {
+    display: block;
+  }
+
+.responsivearrows button{
+  border-radius: 100%;
+}
+
+.responsivearrows{
+  position: absolute;
+  top: 240px;
+  display: flex;
+  font-size: 20px;
+  left: 10px;
+  gap: 230px;
+  cursor: pointer;
+}
+
+  header {
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    width: 365px;
+  }
+  .buttondiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal2 {
+    position: absolute;
+    width: 360px;
+    height: 256px;
+    top: 116px;
+    right: 40px;
+    gap: 0px;
+
+  }
+.modal{
+  display: none;
+}
+
+  .firstbutton {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    gap: 0px;
+  }
+
+
+  
+  .text h1 {
+    font-size: 30px;
+  }
+
+  body {
+    padding: 0px;
+  }
+
+  .pics {
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 0px;
+    width: 327px;
+    height: 300px;
+  }
+
+  .container {
+    width: 375px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mainImg {
+    width: 375px;
+    height: 300px;
+    margin-top: 50px;
+    gap: 0px;
+  }
+
+  .smallpics {
+    display: none;
+  }
+
+  .modal2 {
+    width: 90%;
+    max-width: 300px;
+  }
+}
