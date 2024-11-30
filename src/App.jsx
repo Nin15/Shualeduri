@@ -55,7 +55,7 @@ function App() {
         <img
           onClick={functionTwo}
           className="menu"
-          src="./public/img/Combined Shape 2.png"
+          src="/img/Combined Shape 2.png"
           alt=""
         />
         <h1>sneakers</h1>
@@ -66,13 +66,13 @@ function App() {
         <span>Contact</span>
         <img
           onClick={() => setShow2(true)}
-          src="./public/img/Shape.png"
+          src="/img/Shape.png"
           alt=""
         />
         <img
           onClick={() => setShow2(true)}
           className="Oval"
-          src="./public/img/Oval.png"
+          src="/img/Oval.png"
           alt=""
         />
       </header>
@@ -82,7 +82,7 @@ function App() {
             <img
               className="mainImg"
               onClick={() => setShow(true)}
-              src={`/public/img/${mainImg}`}
+              src={`/img/${mainImg}`}
               alt=""
             />
           </div>
@@ -92,7 +92,7 @@ function App() {
                 key={el.id}
                 onClick={() => setMainImg(el.text)}
                 className="smallpic"
-                src={`./public/img/${el.text}`}
+                src={`/img/${el.text}`}
                 alt=""
               />
             ))}
@@ -152,7 +152,7 @@ function App() {
               <img
                 className="mainImg"
                 onClick={() => setShow(true)}
-                src={`/public/img/${secondImg}`}
+                src={`/img/${secondImg}`}
                 alt=""
               />
             </div>
@@ -164,7 +164,7 @@ function App() {
                     setSecondImg(el.text);
                   }}
                   key={el.id}
-                  src={`/public/img/${el.text}`}
+                  src={`/img/${el.text}`}
                   width={200}
                 />
               ))}
@@ -179,7 +179,7 @@ function App() {
             <p>Your cart is empty</p>
           ) : (
             <div className="idk">
-              <img src="./public/img/1.png" alt="" />
+              <img src="/img/1.png" alt="" />
               <div className="idkk">
                 <p>Fall Limited Edition Sneakers</p>
                 <p>
